@@ -2,7 +2,7 @@
 
 Python implementation of the following paper:
 
-Lange, T., BraunRoth, V., Braun, M., & Buhmann, J. (2004) Stability-based validation of clustering solutions. In *Neural Comput*. 2004 Jun;16(6):1299-323. massachusetts institute of Technology
+> Lange, T., BraunRoth, V., Braun, M., & Buhmann, J. (2004) Stability-based validation of clustering solutions. In *Neural Comput*. 2004 Jun;16(6):1299-323. massachusetts institute of Technology
 
 
 Goal is to identify the "true" number of clusters in a dataset by determining how stable clusters are when generated at each value of k based on the hamming distance metric.
@@ -12,7 +12,7 @@ My implementation seems to favor lower values of k, which should be handled by t
 
 ## Example
 
-```
+```python
 from cluster_stability import ClusterStability
 from sklearn import datasets
 from sklearn.cluster import SpectralClustering
